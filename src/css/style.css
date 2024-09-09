@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Titulo{
+  text-align: center;
+}
+.cuerpoHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cuerpoHeader img{
+  width: 200px;
+  border-radius: 20%;
+}
+.DatosPersonales{
+  margin-left: 100px;
+  color: blue;
+}
+.DatosPersonales hr{
+  border: 1px solid blue;
+}
+.Datos{
+  display: flex;
+}
+.Datos img{
+  width: 50px;
+}
+.Datos p{
+  text-align: center;
+  align-content: center;
+}
+.cuerpo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.DatosFormación{
+  margin-left: 100px;
+  Display: flex;
+}
+.Subtitulo h1{
+  margin-left: 100px;
+  color: blue;
+}
+.Formación p{
+  max-width: 500px;
+  margin-left: 100px;
+}
+.NumeroFormacion{
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin-right: 10px;
+  align-content: center;
+}
+.Experiencia h3{
+  margin-left: 100px;
+}
+.Experiencia p{
+  margin-left: 100px;
+  max-width: 500px;
+}
+.Subtitulo h3{
+  margin-left: 100px;
+}
+.capacitaciones p{
+  max-width: 500px;
+  margin-left: 100px;
+}
+.tabla {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.Referencias {
+  border-collapse: collapse;
+}
+.Referencias td{
+  border: 1px solid black;
+  padding: 8px;
+}
+.Referencias th{
+  border: 1px solid black;
+
+}
+

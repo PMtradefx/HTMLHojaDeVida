@@ -1,0 +1,263 @@
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1725843703171)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1725843703171)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/Hoja de vida.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Hoja de vida.iml b/.idea/Hoja de vida.iml
+new file mode 100644
+--- /dev/null	(date 1725843703207)
++++ b/.idea/Hoja de vida.iml	(date 1725843703207)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1725843703223)
++++ b/.idea/modules.xml	(date 1725843703223)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Hoja de vida.iml" filepath="$PROJECT_DIR$/.idea/Hoja de vida.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1725843703229)
++++ b/.idea/vcs.xml	(date 1725843703229)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+new file mode 100644
+--- /dev/null	(date 1725843691192)
++++ b/package.json	(date 1725843691192)
+@@ -0,0 +1,60 @@
++{
++  "name": "html5-boilerplate",
++  "version": "9.0.1",
++  "homepage": "https://html5boilerplate.com/",
++  "license": "MIT",
++  "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
++  "keywords": [
++    "h5bp",
++    "template",
++    "front-end"
++  ],
++  "repository": {
++    "type": "git",
++    "url": "https://github.com/h5bp/html5-boilerplate.git"
++  },
++  "bugs": {
++    "url": "https://github.com/h5bp/html5-boilerplate/issues"
++  },
++  "scripts": {
++    "build": "gulp build",
++    "prettier": "prettier --write ./**/*.{js,json,md,mjs,yml}",
++    "test": "gulp archive && mocha --reporter spec --timeout 5000"
++  },
++  "devDependencies": {
++    "archiver": "^7.0.1",
++    "del": "^7.1.0",
++    "eslint": "^8.57.0",
++    "eslint-config-recommended": "^4.1.0",
++    "eslint-plugin-mocha": "^10.4.1",
++    "glob": "^10.3.12",
++    "gulp": "^5.0.0",
++    "gulp-autoprefixer": "^9.0.0",
++    "gulp-eslint": "^6.0.0",
++    "gulp-header": "^2.0.9",
++    "gulp-rename": "^2.0.0",
++    "main.css": "3.0.0",
++    "mocha": "^10.4.0",
++    "prettier": "3.2.5",
++    "strip-json-comments": "^5.0.1"
++  },
++  "engines": {
++    "node": ">=18",
++    "npm": ">=10"
++  },
++  "h5bp-configs": {
++    "directories": {
++      "archive": "archive",
++      "dist": "dist",
++      "src": "src",
++      "test": "test"
++    }
++  },
++  "files": [
++    "CHANGELOG.md",
++    "LICENSE.txt",
++    "package.json",
++    "dist/",
++    "README.md"
++  ]
++}
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1725843691550)
++++ b/.idea/.gitignore	(date 1725843691550)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: src/css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/css/style.css b/src/css/style.css
+new file mode 100644
+--- /dev/null	(date 1725850212559)
++++ b/src/css/style.css	(date 1725850212559)
+@@ -0,0 +1,92 @@
++*{
++  margin: 0;
++  padding: 0;
++  box-sizing: border-box;
++}
++.Titulo{
++  text-align: center;
++}
++.cuerpoHeader{
++  display: flex;
++  align-items: center;
++  justify-content: center;
++}
++.cuerpoHeader img{
++  width: 200px;
++  border-radius: 20%;
++}
++.DatosPersonales{
++  margin-left: 100px;
++  color: blue;
++}
++.DatosPersonales hr{
++  border: 1px solid blue;
++}
++.Datos{
++  display: flex;
++}
++.Datos img{
++  width: 50px;
++}
++.Datos p{
++  text-align: center;
++  align-content: center;
++}
++.cuerpo{
++  display: flex;
++  justify-content: center;
++  align-items: center;
++  margin-top: 50px;
++}
++.DatosFormación{
++  margin-left: 100px;
++  Display: flex;
++}
++.Subtitulo h1{
++  margin-left: 100px;
++  color: blue;
++}
++.Formación p{
++  max-width: 500px;
++  margin-left: 100px;
++}
++.NumeroFormacion{
++  background-color: blue;
++  color: white;
++  border-radius: 50%;
++  text-align: center;
++  width: 30px;
++  height: 30px;
++  padding: 2px;
++  margin-right: 10px;
++  align-content: center;
++}
++.Experiencia h3{
++  margin-left: 100px;
++}
++.Experiencia p{
++  margin-left: 100px;
++  max-width: 500px;
++}
++.Subtitulo h3{
++  margin-left: 100px;
++}
++.capacitaciones p{
++  max-width: 500px;
++  margin-left: 100px;
++}
++.tabla {
++  display: flex;
++  justify-content: center;
++  margin-bottom: 10px;
++}
++.Referencias {
++  border-collapse: collapse;
++}
++.Referencias td{
++  border: 1px solid black;
++  padding: 8px;
++}
++.Referencias th{
++  border: 1px solid black;
++}
